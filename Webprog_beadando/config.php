@@ -9,7 +9,7 @@ $menu = [
 
 // adatbáziskapcsolat
 try {
-    $dbh = new PDO('mysql:host=localhost;dbname=autokereskedes', 'auto', 'auto1234', [
+    $dbh = new PDO('mysql:host=localhost;dbname=autokereskedes', 'autokereskedes', 'autokereskedes', [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
     ]);
 } catch (PDOException $e) {
